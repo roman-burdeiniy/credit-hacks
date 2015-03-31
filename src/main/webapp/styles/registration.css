@@ -1,0 +1,63 @@
+#registrationSection
+{
+    font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    height: 100%;
+    vertical-align: middle;
+}
+
+legend{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2e6e9e;
+}
+
+form{
+    float:left;
+    font-size: 12px;
+    margin-top: 0.8em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+fieldset{
+    border: 1px solid #71A9D3;
+}
+
+label{
+    float:left;
+    width: 10em;
+    text-align: right;
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    margin-right: 2em;
+    width: 15em;
+}
+
+#sendSMS{
+    margin-left: 6em;
+    margin-bottom: .5em
+}
+
+#submitSMS{
+    margin-left: 3em;
+    margin-bottom: .5em
+}
+
+.smsCodePart{
+    width: 20px;
+    margin-right: 0em;
+}
+
+.smsCodePart.notFirst{
+    margin-left: 0em;
+}
+
+label#errorLabel{
+    color: #FF0000;
+    width: 19em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}

@@ -1,0 +1,29 @@
+body{
+    font-family: verdana, arial, sans-serif;
+}
+
+#wrapper{
+    width:100%
+}
+
+#loginInfoSection{
+    width: 100%;
+    background-color: #F4FAFA;
+}
+
+#user li
+{
+    display: inline;
+    font-size: 15px;
+}
+
+#user{
+    list-style-type: disc;
+    float: right;
+    padding-right: 10px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}

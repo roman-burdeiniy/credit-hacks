@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="547156432">
+    <data-source source="LOCAL" name="MySQL - credit_provider_db@localhost" uuid="9b564786-ac23-4194-aa4b-f08e5cdda810">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/credit_provider_db</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfeddfc5dfd9dfc2dfcbdf9ddf9ddf9d</user-password>
+      <schema-pattern>credit_provider_db.*</schema-pattern>
+      <default-schemas>credit_provider_db.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

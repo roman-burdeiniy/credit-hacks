@@ -1,0 +1,95 @@
+#mainSection
+{
+    font-family: Lucida Grande,Lucida Sans,Arial,sans-serif;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#banksLogosHolder
+{
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 750px;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#registrationLink{
+    margin-left: 88px;
+}
+
+.gallery-image{
+    max-width: 250px;
+    max-height: 250px;
+    vertical-align: middle;
+    display: inline;
+    margin: 0 10px;
+}
+
+.ui-widget {
+    font-size: 12px;
+}
+
+#loginSection{
+    width: 28em;
+    height: 10.65em;
+    background: #FFFFFF;
+    border-style: solid;
+    border-color: #FFFFFF;
+    box-shadow: 1px 1px 5px 2px #828282;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+#submit{
+    margin-left: 1em;
+}
+
+#aboutP{
+    text-indent: 10px;
+}
+
+h1{
+    font-size: 1.5em;
+    margin-top: 0.65em;
+    margin-left: 1em;
+    margin-bottom: 0;
+}
+
+form{
+    float:left;
+    font-size: 12px;
+    margin-top: 0.8em;
+    padding-left: 4em;
+}
+
+label{
+    float:left;
+    width: 6em;
+    text-align: right;
+}
+
+input{
+    margin-left: 1em;
+    margin-bottom: .5em
+}
+
+button{
+    margin-left: 1em;
+    margin-bottom: .5em
+}
+
+label#errorLabel{
+    color: #FF0000;
+    width: 19em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}

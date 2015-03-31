@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Регистрация</title>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.animateGradient.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/registration.js"></script>
+
+    <link rel="stylesheet" href="styles/jquery-ui.css"/>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/registration.css">
+</head>
+<body>
+    <section id="registrationSection">
+        <form id="registrationForm" action="registration">
+            <fieldset>
+                <legend>Регистрация</legend><br/>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"/><br/>
+                <label for="phone">Телефон:</label>
+                <input type="text" id="phone" name="phone"/><br/>
+                <label for="password">Пароль:</label>
+                <input id="password" type="password" name="password"/><br/>
+                <label for="passwordConf">Пароль ещё раз:</label>
+                <input id="passwordConf" type="password" name="passwordConf"/><br/>
+                <label for="sendSMS" type="text">&nbsp</label>
+                <button id="sendSMS">Отправить SMS</button><br/>
+                <label for="smsCodePart1" class="hidden">Код из SMS:</label>
+                <input type="smsCode" id="smsCodePart1" class="smsCodePart hidden" name="smsCode1"/> <span class="hidden">&#x2012;</span>
+                <input type="smsCode" id="smsCodePart2" class="smsCodePart notFirst hidden" name="smsCode2"/> <span class="hidden">&#x2012;</span>
+                <input type="smsCode" id="smsCodePart3" class="smsCodePart notFirst hidden" name="smsCode3"/><br class="hidden"/>
+                <label for="submitSMS" type="text" class="hidden">&nbsp</label>
+                <button id="submitSMS" class="hidden">Подтвердить SMS код</button><br class="hidden"/>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>

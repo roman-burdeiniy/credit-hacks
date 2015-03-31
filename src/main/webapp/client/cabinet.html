@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="clientCabinetApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Мой кабинет</title>
+    <script type="text/javascript" charset="utf-8" src="../js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../js/jquery-ui.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../js/angular.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../js/angular-resource.js"></script>
+
+
+
+    <script type="text/javascript" charset="utf-8" src="js/cabinetService.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/cabinetController.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/cabinet.js"></script>
+
+
+
+
+
+    <link rel="stylesheet" href="../styles/jquery-ui.css"/>
+    <link rel="stylesheet" href="../styles/jquery.ui.menubar.css"/>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="styles/cabinet.css">
+</head>
+<body>
+<section id="wrapper">
+    <section id="headerSection">
+        <section id="centerSection">
+            <img class="headerImage" src="../styles/images/company-logo-demo.png"/>
+        </section>
+    </section>
+    <div class="headerLine"></div>
+    <section id="loginInfoSection" ng-controller="LoggedInUserController">
+        <ul id="user">
+            <li>Пользователь:</li>
+            <li id="userName">{{user.name}}</li>
+            <li>Успешно авторизован!</li>
+            <li> <button id="logoutButton" type="button" ng-click="logout()">Выйти</button></li>
+        </ul>
+    </section>
+    <section id="main">
+        <section id="mainContentSection"></section>
+    </section>
+
+    <section id="footerSection">
+        <section id="copyright">
+            Copyright &copy 2014 Credithacks. All rights reserved.
+        </section>
+
+    </section>
+</section>
+</body>
+</html>

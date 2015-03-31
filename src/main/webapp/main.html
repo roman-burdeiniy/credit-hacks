@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Головна</title>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-1.11.1.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.animateGradient.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+
+    <link rel="stylesheet" href="styles/jquery-ui.css"/>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+     <section id="mainSection">
+         <section id="banksLogosHolder">
+             <img class="gallery-image" src="styles/images/alpha-bank.png"/>
+             <img class="gallery-image" src="styles/images/private.png"/>
+             <img class="gallery-image" src="styles/images/pt.png"/>
+             <img class="gallery-image" src="styles/images/unicredit.png"/>
+         </section>
+         <section id="loginSection">
+             <h1>Login</h1>
+             <form action="login" method="post">
+                 <label for="login">Телефон:</label>
+                 <input type="text" id="login" name="j_username"/><br/>
+                 <label for="password">Пароль:</label>
+                 <input type="password" id="password" name="j_password"/><br/>
+                 <a id="registrationLink" href="">Регистрация</a>
+                 <button id="submit" type="submit">Войти</button><br/>
+                 <label for="smsCode" class="hidden">Код из SMS:</label>
+                 <input type="smsCode" id="smsCode" class="hidden" name="smsCode"/><br class="hidden"/>
+                 <input for="submitSMS" type="text" class="hidden">&nbsp</input><br class="hidden"/>
+                 <button id="submitSMS" class="hidden">Подтвердить</button><br class="hidden"/>
+             </form>
+        </section>
+
+             <h1>О системе</h1>
+         <p id="aboutP">
+             Thomson Reuters is the world’s leading source of intelligent information for businesses and professionals
+             We combine industry expertise with innovative technology to deliver critical information to leading decision makers in
+             the financial and risk, legal, tax and accounting, intellectual property and science and media markets, powered by the world's most trusted news organization.
+             We exist to create the next global technology company. Our ambitions are high and we want to be big, but more so we want to build respected products, the best products we can build within our abilities.
+             <p>
+             There’s little that can beat the feeling of interacting with users who thoroughly enjoy our product enough to share it with the world. For us, it’s an adrenaline rush. One that we chase in unrelenting pursuit.
+             We are not a company looking to go global. We were born global, with employees hailing from all corners of the world. Our dream is for friends from all over the world to enjoy our products.
+             Working with our clients on their most challenging issues requires deep industry and functional expertise. We invest significant time and effort in developing and renewing a knowledge base that offers unique perspectives and insights to our clients. Knowledge development occurs within our eighteen industry practices, eight functional practices.
+             </p>
+        </p>
+     </section>
+</body>
+</html>
